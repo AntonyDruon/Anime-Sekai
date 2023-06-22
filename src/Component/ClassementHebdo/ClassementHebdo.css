@@ -1,0 +1,16 @@
+.EncadrementBleu{
+    position: absolute;
+    right: 0;
+    top: 30%;
+    background-color: #152232;
+    width: 287px;
+    height: 375px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+h2 {
+    color: #7859AB;
+}
+.Liste{
+    color : #fff;
+}

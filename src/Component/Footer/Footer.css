@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'anime_ace_2.0_bbregular';
+    src: url('../../../public/font/animeace2_reg-webfont.woff2') format('woff2'),
+         url('../../../public/font/animeace2_reg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+footer {
+    font-family: 'anime_ace_2.0_bbregular';
+}

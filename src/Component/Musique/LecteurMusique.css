@@ -1,0 +1,55 @@
+.placement {
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.placement80Pourcent{
+    width : 80%;
+    border: 1px solid orange;
+}
+
+.placementLecteurTitre {
+    width : 20%;
+    height: 150px;
+    border: 2px solid red;
+    /* margin-right: 20px; */
+}
+.placementLecteur {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.lecteur{
+    width : 200px;
+    height : 60px;
+    background-color: #7859AB;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 0;
+   
+}
+.placementTitre{
+    /* border: #7859AB 2px solid; */
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 70px;
+    line-height: 0;
+    margin-top: 5px;
+}
+.placementTitre p {
+    margin : 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.flecheGauche, .flecheDroite, .play {
+    cursor: pointer;
+}

@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'anime_ace_2.0_bbregular';
+    src: url('../../../public/font/animeace2_reg-webfont.woff2') format('woff2'),
+         url('../../../public/font/animeace2_reg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+    margin : 0;
+    box-sizing: border-box;
+    background-color: #D0DDD7;
+}
+
+/******************************************* Header */
+
+nav {
+    height : 80px;
+    background-color: #152232;
+    display: flex;
+    width : 100%;
+    font-family: 'anime_ace_2.0_bbregular';
+    font-size: 20px;
+}
+.logo {
+    width : 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    /* margin-left: 10px;; */
+    width: 80%;
+    height: 90%;
+    background-image: url('../../../public/logoanime_sekai.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.positionListe {
+    width: 40%;
+    height: 100%;
+}
+.liste {
+    list-style-type: none;
+    background-color: #152232;
+    height : 100%;
+    display: flex;
+    justify-content: center;
+    gap : 40px;
+    align-items: center;
+    position : relative;
+    margin : 0;
+    font-weight: 900;
+}
+
+.items {
+    list-style-type: none;
+    margin-right: 10px;
+    color : #209EA5;
+    cursor: pointer;
+   
+    
+}
+.liste .items:nth-child(1) {
+    color : #7859AB;
+}
+.positionCoIn{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.connexioninscription {
+    display: flex;
+    gap : 40px
+} 
+.positionbtn {
+    display: none;
+}
+@media screen and (max-width: 1275px){
+    .liste, .connexioninscription {
+        gap : 0px
+    }
+}
+@media screen and (max-width: 1039px){
+    nav {
+        flex-direction: column;
+        
+    }
+    .positionListe {
+        width: 100%;
+        height: auto;
+    }
+    .liste {
+        flex-direction: column;
+        padding: 0;
+    }
+    .items:nth-child(1){
+        /* border-top : 1px solid #fff;
+        margin-top: 10px; */
+    }
+    .items {
+        height: 50px;
+        width: 100%;
+        border-bottom: 1px solid #fff;
+        line-height: 50px;
+    }
+    .positionbtn {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        color: #f1f1f1;
+        cursor: 'pointeur';
+        margin: 0;
+    }
+    .connexioninscription{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        background-color: #152232;
+    }
+    .positionCoIn{
+        display: block;
+        width: 100%
+    }
+    .logo {
+        height : 50px
+    }
+}
