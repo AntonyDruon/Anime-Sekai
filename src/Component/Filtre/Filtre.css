@@ -1,0 +1,24 @@
+.placementFiltre {
+    width: 65%;
+    margin: auto;
+    /* background-color: antiquewhite; */
+}
+.placementListeFiltre {
+    /* background-color: aquamarine; */
+    width: 50%;
+}
+.placementListeFiltre ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    padding: 0;
+}
+.placementListeFiltre ul li {
+    list-style-type: none;
+    background-color: #152232;
+    border-radius: 10px;
+    width: 120px;
+    color: #209EA5;
+    
+}

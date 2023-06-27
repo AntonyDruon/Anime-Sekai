@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+@font-face {
+    font-family: 'anime_ace_2.0_bbregular';
+    src: url('../../../public/font/animeace2_reg-webfont.woff2') format('woff2'),
+         url('../../../public/font/animeace2_reg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.placementMain{
+width: 65%;
+margin: auto;
+/* background-color: aquamarine; */
+}
+.placementPremiereLigne, .placementDeuxiemeLigne, .placementTroisiemeLigne{
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+}
+
+.premiereAnime,.premiereAnime,.deuxiemeAnime,.troisiemeAnime,.quatriemeAnime {
+    width : 187px;
+    height: 309px;
+    color: #7859ab;
+    font-family: 'Amaranth', sans-serif;
+}
+.placementMain .placementPremiereLigne .premiereAnime img,
+.placementMain .placementPremiereLigne .deuxiemeAnime img,
+.placementMain .placementPremiereLigne .troisiemeAnime img, 
+.placementMain .placementPremiereLigne .quatriemeAnime img,
+.placementMain .placementDeuxiemeLigne .premiereAnime img,
+.placementMain .placementDeuxiemeLigne .deuxiemeAnime img,
+.placementMain .placementDeuxiemeLigne .troisiemeAnime img, 
+.placementMain .placementDeuxiemeLigne .quatriemeAnime img,
+.placementMain .placementTroisiemeLigne .premiereAnime img,
+.placementMain .placementTroisiemeLigne .deuxiemeAnime img,
+.placementMain .placementTroisiemeLigne .troisiemeAnime img, 
+.placementMain .placementTroisiemeLigne .quatriemeAnime img {
+    width : 187px;
+    height : 265px;
+    border-radius: 10px;
+}
+
+.placementPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'anime_ace_2.0_bbregular';
+    /* background-color: #7859ab; */
+    height : 50px;
+}
+.placementNumero{
+    display: flex;
+    color : #152232;
+    width: 120px;
+    gap : 10px;
+    font-size: 20px;
+}
+
+

@@ -9,4 +9,43 @@
 
 footer {
     font-family: 'anime_ace_2.0_bbregular';
+    color : #209EA5;
+    background-color: #152232;
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 125px;
+}
+.placementReseaux{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #141b1c; */
+}
+.alignementReseau{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap : 15px;
+}
+.placementLien{
+    width : 50%;
+    /* background-color: #394041; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alignementLien{
+    /* background-color: #152232; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: flex-start; */
+    gap: 20px;
+}
+p {
+    margin : 0;
 }
